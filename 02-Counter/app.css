@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(187, 183, 183);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+#value{
+    font-size: 50PX;
+    font-weight: 500;
+}
+h1{
+    font-size: 40px;
+}
+.btn{
+    background-color:black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+.btn:hover{
+    background-color: coral;
+    transition: .5s;
+}
