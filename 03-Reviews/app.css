@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(251, 247, 247);
+}
+.header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.underline{
+  height: 4px;
+  width: 55px;
+  background-color: rgb(31, 152, 192) ;
+  border-radius: 2px;
+  margin: auto;
+}
+.container{
+background-color: #ffffff;
+ box-shadow: 10px 10px 20px;
+ max-width: 40%;
+ margin: auto;
+ border-radius: 10px;
+ padding:20px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px rgb(60, 188, 231);
+    object-fit: cover;
+}
+.person{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.occupation{
+    font-size: 12px;
+    color: rgb(11, 149, 195);
+    margin-top: 4px;
+}
+.arrows{
+    color: rgb(16, 119, 154);
+    font-size:25px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.btns{
+    border: none;
+    background-color: transparent;
+    color: rgb(27, 151, 212);
+    font-size: 18px;
+}
+i{
+    font-size: 18px;
+}
+/* .back{
+    margin-right: 5px;
+} */
+.button{
+    text-align: center;
+}
+.btn{
+    margin-top: 15px;
+    background-color: rgb(38, 150, 187);
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;   
+    color: white;
+    font-size: 17px;
+}
