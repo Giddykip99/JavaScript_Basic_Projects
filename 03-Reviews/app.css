@@ -52,15 +52,7 @@ background-color: #ffffff;
     margin-bottom: 4px;
     cursor: pointer;
 }
-.btns{
-    border: none;
-    background-color: transparent;
-    color: rgb(27, 151, 212);
-    font-size: 18px;
-}
-i{
-    font-size: 18px;
-}
+
 /* .back{
     margin-right: 5px;
 } */
