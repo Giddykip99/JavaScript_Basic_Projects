@@ -1,0 +1,115 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(244, 253, 253);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    margin-top: 70px;
+}
+.line{
+    background-color: rgb(233, 136, 101);
+    height: 3px;
+    width: 60px;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 25px;
+}
+button{
+    color: rgb(218, 160, 51);
+    background-color: white;
+    border: 2px solid  rgb(218, 160, 51) ;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.theMenu{
+    
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content:center;
+  padding: 30px 0px;
+  margin:20px 0px;
+}
+.food{
+    max-width: 40%;
+    padding: 4px;
+}
+.food:hover{
+    box-shadow: 10px 10px 10px rgb(163, 160, 160);
+    transition: 1s;
+    border-radius: 10px;
+    opacity: 90%;
+
+}
+.image{
+    padding-right: 15px;
+}
+img{
+    height: 120px;
+    width: 180px;
+    border: 3px solid rgb(193, 136, 30);
+    border-radius: 5px;
+}
+.price{
+    color:rgb(208, 145, 30);
+}
+
+.allAbot{
+    display: flex;
+    padding: 8px;
+}
+.name-price{
+    display: flex;
+    justify-content: space-between;
+}
+.line2{
+    height: 1px;
+    background-color: rgb(163, 160, 160);
+}
+.about-food{
+    padding-top: 10px;
+}
+@media (max-width:768px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .theMenu{
+        display: block;
+    }
+    .food{
+        max-width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    
+    }
+}
+@media only screen and (min-width:769px) and (max-width:970px){
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    .price{
+        padding-left: 15px;
+    }
+}
