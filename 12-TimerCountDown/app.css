@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 241, 243);
+}
+.section{
+    margin: 75px 20px;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.text-time{
+    margin-top: 30px;
+}
+.text-time h1{
+    color: rgb(7, 105, 138);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-bottom:12px;
+    word-spacing: 1px;
+}
+
+.text-time .Giveaway{
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    word-spacing: 2px;
+    color: green;
+}
+.text-time .p{
+    line-height:1.2rem;
+    color: rgb(94, 140, 155);
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.deadline{
+    display: flex;
+}
+.deadline-format{
+    background-color: rgb(14, 44, 53);
+    display: grid;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    place-items: center;
+    text-align: center;
+}
+.time{
+    display: grid;
+    text-align: center;
+}
+.time h4{
+    color: white;
+    font-size: 30px;
+}
+.time p{
+    color: white;
+    font-size: 20px;
+}
+.expired{
+    color:rgb(202, 60, 60);
+    background-color: rgb(228, 227, 227);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    height: 20vh;
+    width: 80%;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+@media (min-width: 1000px){
+    .section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .text-time{
+        margin-top: 0px;
+    }
+
+}
