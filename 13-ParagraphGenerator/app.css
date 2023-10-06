@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(233, 238, 238);
+}
+.container{
+    text-align: center;
+    margin-top: 80px;
+}
+.container h1{
+    color: rgb(7, 63, 82);
+    padding-bottom:30px ;
+}
+.container span{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.container input{
+    width: 50px;
+    padding: 4px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.container button{
+    padding: 8px;
+    background-color: rgb(23, 163, 209);
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+    margin-left: 4px;
+}
+.content{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
