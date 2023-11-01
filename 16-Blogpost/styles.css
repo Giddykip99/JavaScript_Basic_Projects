@@ -1,0 +1,92 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(196, 212, 212);
+}
+.container{
+    margin: 60px auto;
+    max-width: 80%;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(5, 161, 101);
+    color: rgb(237, 232, 232);
+    font-size: 15px;
+}
+.search{
+    max-width: 50%;
+}
+.search input{
+    width: 100%;
+    padding: 3px 8px;
+    background-color: white;
+    border-radius: 4px;
+}
+.blogs{
+    margin: 20px 0px;
+}
+.blog1{
+    background-color: rgb(248, 244, 244);
+    padding:30px 20px;
+    border-radius: 8px;
+    margin: 20px 0px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    transition: .5s;
+}
+.blog1:hover{
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+}
+.blog-body{
+    padding: 10px 0px;
+}
+.form-container{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+form{
+  max-width: 500px;
+}
+.form-container input,textarea{
+    display: block;
+    width: 100%;
+    margin: 16px 0px;
+    padding: 6px 10px;
+    border: 1px solid white;
+
+}
+textarea{
+    min-height: 200px;
+}
+.specific-blog{
+    width: 100%;
+    padding-top: 80px;
+}
+.specific-blog p{
+    margin: 15px 0px;
+}
+.btn2{
+    background-color: rgb(154, 36, 36);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.likes{
+    color: rgb(246, 78, 78);
+    font-size: 18px;
+}

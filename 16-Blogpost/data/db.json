@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "'How to get fat in 3 months'",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste dolorem dolor qui illum quasi aut soluta? Ipsum quos hic laboriosam sequi. Accusantium similique facilis cupiditate molestiae, incidunt suscipit facere.",
+      "likes": 20
+    },
+    {
+      "id": 2,
+      "title": "How to learn how to code in 2 weeks",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iste dolorem dolor qui illum quasi aut soluta? Ipsum quos hic laboriosam sequi. Accusantium similique facilis cupiditate molestiae, incidunt suscipit facere.",
+      "likes": 40
+    },
+    {
+      "title": "Junior Developer",
+      "body": "We need a junior web dev",
+      "likes": 0,
+      "id": 3
+    }
+  ]
+}
